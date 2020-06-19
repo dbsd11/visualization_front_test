@@ -95,7 +95,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>`
       <div class="effect-eval app-sys-efficacy">
         <div class="main-title app-sys-title">各应用系统效能</div>
         <div class="operation-manage-view">
@@ -534,7 +534,7 @@
           </div>
         </div>
         <div class="quality-data-view">
-          <div class="main-title" style="letter-spacing: 0;font-size: 1.2rem;left: -4%;">数据态势</div>
+          <div class="main-title" style="letter-spacing: 0;font-size: 0.22rem;left: -4%;">数据态势</div>
           <div class="data-increase-view">
             <data-increase></data-increase>
           </div>
@@ -1240,7 +1240,7 @@
     position: absolute;
     top: 40%;
     left: 8%;
-    font-size: 1rem;
+    font-size: 0.2rem;
   }
 
   .view-title {
@@ -1271,13 +1271,13 @@
 
   .primary-title {
     width: 34%;
-    font-size: 1.8rem;
+    font-size: 0.45rem;
     font-weight: 900;
   }
 
   .secondary-title {
     width: 30%;
-    font-size: 1.5rem;
+    font-size: 0.35rem;
     font-weight: 700;
   }
 
@@ -1297,7 +1297,7 @@
   .main-title {
     position: relative;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 0.33rem;
     font-weight: bold;
     width: 40%;
     margin: auto;
@@ -1314,7 +1314,7 @@
     position: relative;
     color: #fff;
     width: 20px;
-    font-size: 1.5rem;
+    font-size: 0.35rem;
     font-weight: bold;
     top: 22%;
     letter-spacing: 3px;
@@ -1343,7 +1343,7 @@
     line-height: 100%;
     vertical-align: middle;
     padding-top: 2%;
-    font-size: 1.2rem;
+    font-size: 0.25rem;
     width: 19%;
     color: #fff;
   }
@@ -1487,7 +1487,7 @@
 
   .safe-title {
     right: -30%;
-    font-size: 1.3rem;
+    font-size: 0.23rem;
     top: 4%;
   }
 
@@ -1550,7 +1550,7 @@
     left: 12%;
     top: 26%;
     color: #fff;
-    font-size: 2rem;
+    font-size: 0.5rem;
     font-weight: bolder;
     text-align: center;
   }
@@ -1579,7 +1579,7 @@
   .app-title {
     position: relative;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 0.35rem;
     font-weight: bold;
     top: 10%;
     left: 4%;
@@ -1696,7 +1696,7 @@
     line-height: 40px;
     vertical-align: middle;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.2rem;
     /*background: #fff;*/
   }
 
@@ -1717,7 +1717,7 @@
     top:40%;
     color: #fff;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.2rem;
   }
 
   .quality-all-equip {
@@ -1740,7 +1740,7 @@
     top: 11%;
     /*line-height: 40px;*/
     vertical-align: center;
-    font-size: 1.3rem;
+    font-size: 0.22rem;
     text-align: center;
   }
 

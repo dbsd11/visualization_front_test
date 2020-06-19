@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-import "babel-polyfill"
+import 'babel-polyfill'
 
 import 'normalize.css/normalize.css'// A modern alternative to CSS resets
 
@@ -18,6 +18,15 @@ import './icons' // icon
 import './errorLog'// error log
 import './permission' // permission control
 import './mock' // simulation data
+
+import dataV from '@jiaminghi/data-view'
+Vue.use(dataV)
+
+// 引入vue-awesome
+import Icon from 'vue-awesome/components/Icon'
+import 'vue-awesome/icons/index.js'
+// 全局注册图标
+Vue.component('icon', Icon)
 
 import * as filters from './filters' // global filters
 

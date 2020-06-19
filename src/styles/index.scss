@@ -192,3 +192,48 @@ code {
 .multiselect--active {
   z-index: 1000 !important;
 }
+
+.colorBlack {
+  color: #272727 !important;
+
+  &:hover {
+    color: #272727 !important;
+  }
+}
+
+.colorGrass {
+  color: #33cea0;
+
+  &:hover {
+    color: #33cea0 !important;
+  }
+}
+
+.colorRed {
+  color: #ff5722;
+
+  &:hover {
+    color: #ff5722 !important;
+  }
+}
+
+.colorText {
+  color: #d3d6dd !important;
+
+  &:hover {
+    color: #d3d6dd !important;
+  }
+}
+
+.colorBlue {
+  color: #257dff !important;
+
+  &:hover {
+    color: #257dff !important;
+  }
+}
+
+//flex
+.d-flex {
+  display: flex;
+}

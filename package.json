@@ -20,7 +20,7 @@
     "codemirror": "5.32.0",
     "dropzone": "5.2.0",
     "echarts": "^3.8.5",
-    "element-ui": "2.0.8",
+    "element-ui": "2.10.1",
     "file-saver": "1.3.3",
     "font-awesome": "4.7.0",
     "js-cookie": "2.2.0",
@@ -44,7 +44,9 @@
     "vue-splitpane": "1.0.2",
     "vuedraggable": "2.15.0",
     "vuex": "3.0.1",
-    "xlsx": "^0.11.16"
+    "xlsx": "^0.11.16",
+    "@jiaminghi/data-view": "^2.7.3",
+    "vue-awesome": "^4.0.2"
   },
   "devDependencies": {
     "autoprefixer": "7.2.3",
@@ -78,6 +80,7 @@
     "postcss-url": "7.3.0",
     "pushstate-server": "3.0.1",
     "rimraf": "2.6.2",
+    "sass": "^1.25.0",
     "sass-loader": "6.0.6",
     "script-loader": "0.7.2",
     "semver": "5.4.1",
