@@ -135,12 +135,11 @@
         clusterManageListConfig: {
           header: ["名称", "所属机房", "所在子网", "命名空间", "应用列表", "<span style='padding-left:0.3rem'>操作</span>"],
           data: [
-            ["bmr", "中金", "172.16.xx.xx", "", "['kafka', 'elasticsearch','hdfs']", "<span style='padding-left:0.3rem'>查看详情</span>"],
-            ["HDP", "中金", "172.17.xx.xx", "", "['kafka', 'elasticsearch','hdfs']", "<span style='padding-left:0.3rem'>查看详情</span>"],
-            ["备用集群", "汇天", "172.18.xx.xx", "", "['kafka', 'elasticsearch','hdfs']", "<span style='padding-left:0.3rem'>查看详情</span>"],
-            ["数据工厂", "中金", "172.16.100.xx", "主集群", "['智能决策']", "<span style='padding-left:0.3rem'>查看详情</span>"], 
-            ["数据工厂", "中金", "172.16.101.xx", "备集群", "['智能决策']", "<span style='padding-left:0.3rem'>查看详情</span>"],
-            ["数据工厂", "中金", "172.17.100.xx", "测试环境A", "['智能决策']", "<span style='padding-left:0.3rem'>查看详情</span>"]
+            ["集群1", "机房1", "172.16.xx.xx", "", "['kafka', 'elasticsearch','hdfs']", "<span style='padding-left:0.3rem'>查看详情</span>"],
+            ["集群2", "机房2", "172.17.xx.xx", "", "['kafka', 'elasticsearch','hdfs']", "<span style='padding-left:0.3rem'>查看详情</span>"],
+            ["备用集群", "备用机房", "172.18.xx.xx", "", "['kafka', 'elasticsearch','hdfs']", "<span style='padding-left:0.3rem'>查看详情</span>"],
+            ["项目1", "机房1", "172.16.100.xx", "主集群", "['网关服务']", "<span style='padding-left:0.3rem'>查看详情</span>"], 
+            ["项目1", "备用机房", "172.16.101.xx", "备集群", "['网关服务']", "<span style='padding-left:0.3rem'>查看详情</span>"],
           ],
           rowNum: 10, //表格行数
           headerHeight: 35,
@@ -156,7 +155,7 @@
           data: [
             ["kafka", "bmr", "", "['172.16.100.22','172.16.100.23','172.16.100.24']", "<span style='padding-left:0.3rem'>查看详情</span>"],
             ["elasticsearch", "bmr", "", "['172.16.100.22','172.16.100.22','172.16.100.22']", "<span style='padding-left:0.3rem'>查看详情</span>"],
-            ["智能决策", "数据工厂", "主集群", "['172.16.100.15','172.16.100.16','172.100.145.17']", "<span style='padding-left:0.3rem'>查看详情</span>"],
+            ["网关服务", "项目1", "主集群", "['172.16.100.15','172.16.100.16','172.100.145.17']", "<span style='padding-left:0.3rem'>查看详情</span>"],
           ],
           rowNum: 10, //表格行数
           headerHeight: 35,
