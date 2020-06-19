@@ -97,15 +97,15 @@ export const constantRouterMap = [
     }]
   },
   {
-    path: '/test',
+    path: '/iaas',
     component: Layout,
-    redirect: '/test/testView',
+    redirect: '/iaas/index',
     meta: { title: '测试', icon: 'dashboard', noCache: true },
     children: [{
-      path: 'testView',
-      component: _import('test/test'),
-      name: 'Test',
-      meta: { title: 'test', icon: 'dashboard', noCache: true }
+      path: 'index',
+      component: _import('iaas/index'),
+      name: 'iaas',
+      meta: { title: 'IAAS平台', icon: 'dashboard', noCache: true }
     }]
   }
   // {
